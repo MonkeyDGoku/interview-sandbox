@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Zhi+Mang+Xing&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #222;
+  display: flex;
+  color: #fff;
+}
+.container .logo {
+  flex: 1 0 auto;
+  padding: 20px;
+  padding-left: 100px;
+  font-family: "Pacifico", cursive;
+}
+.container .logo h2 {
+  letter-spacing: 0.2em;
+}
+.container .nav-bar {
+  display: flex;
+  flex: 2 0 auto;
+  justify-content: flex-end;
+  padding-right: 100px;
+  font-family: "Poppins", sans-serif;
+}
+.container .nav-bar ul {
+  display: flex;
+  list-style-type: none;
+  text-align: right;
+  align-items: center;
+}
+.container .nav-bar ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+}
+/*# sourceMappingURL=style.css.map */
